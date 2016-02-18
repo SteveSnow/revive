@@ -13,5 +13,16 @@
 }
 
 #contactForm{
-	display: flex;
+	padding-top: 50px;
+	position: relative;
+	left:20%;
+}
+
+#returnAddr{
+	margin-bottom: 10px;
+	width: 250px;
+}
+#message{
+	height: 400px;
+	width: 50%;
 }
