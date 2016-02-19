@@ -1,7 +1,7 @@
 require 'sinatra'
 
-get '/' do 
-	erb :home	
+get '/' do
+	erb :home
 end
 
 get '/home' do
@@ -18,4 +18,9 @@ end
 
 get '/contact' do
 	erb :contact
+end
+
+
+get '/testing' do
+  erb :testing
 end

@@ -1,17 +1,128 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #680148;
+}
+
+h1{
+  color: #7DB4B5;
+  display: inline-block;
+}
+
+#main{
+  padding-bottom: 80px;
+  font-size: 20px;
+}
+
+#container{
+  margin: 0 7em;
+}
+
+#circleDiv{
+  display: inline-block;
+
+}
+
+#titleDiv{
+  display: inline-block;
+  padding-top: 4%;
+}
+
+
+.circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  /* width and height can be anything, as long as they're equal */
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+.littleCircle{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  /* width and height can be anything, as long as they're equal */
+  background-color: #680148;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+
+.mediumCircle{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  /* width and height can be anything, as long as they're equal */
+  background-color: #680148;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}
+
+.bigCircle{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  /* width and height can be anything, as long as they're equal */
+  background-color: #680148;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+}
+
+
 #background {
     width: 100%;
     height: 200px;
-    background-color: blue;
+    background-color: #680148;
+    text-align: center;
+}
+
+.circleText{
+  color: #680148;
+  font-size: 2em;
+}
+
+.circleText a:link{
+  color: #680148;
+  text-decoration: none;
+}
+
+.circleText a:visited{
+  color: #680148;
+  text-decoration: none;
+}
+
+#mainTitle{
+    font-size: 3.8em;
+    color: white;
+}
+
+#subTitle{
+  font-size: 1.5em;
+  color: white;
 }
 
 #footer {
     width: 100%;
-    height: 50px;
-    position: absolute;
+    height: 90px;
+    position: fixed;
     bottom: 0;
-    background-color: blue;
+    background-color: #680148;
+    text-align: center;
+    color: white;
 }
 
 #contactForm{
 	display: flex;
+}
+
+.mediaIcon{
+  padding-left: 5px;
 }
