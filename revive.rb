@@ -21,6 +21,6 @@ get '/contact' do
 end
 
 
-get '/testing' do
-  erb :testing
+get '/location' do
+  erb :location
 end

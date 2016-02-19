@@ -123,6 +123,11 @@ h1{
 	display: flex;
 }
 
+.ritten{
+  float: right;
+  margin: 20px;
+}
+
 .mediaIcon{
   padding-left: 5px;
 }
