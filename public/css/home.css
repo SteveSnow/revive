@@ -120,7 +120,18 @@ h1{
 }
 
 #contactForm{
-	display: flex;
+	/*padding-top: 50px;*/
+	position: relative;
+	left:10em;
+}
+
+#returnAddr{
+	margin-bottom: 10px;
+	width: 20em;
+}
+#message{
+	height: 15em;
+	width: 50%;
 }
 
 .ritten{
