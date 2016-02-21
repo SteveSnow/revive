@@ -144,7 +144,7 @@ h1{
 }
 
 .question{
-  height: 2em;
+  height: 4em;
   width: 20em;
   border:1px black solid;
 }
@@ -154,4 +154,9 @@ h1{
   width: 20em;
   background-color: blue;
   border:1px black solid;
+}
+
+#questionForm{
+  position: relative;
+  left:10em;
 }

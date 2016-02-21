@@ -1,7 +1,10 @@
 
 $(document).ready(function() {
     $('.question').click(function(e) {
-        changeOpen(e)
+        changeOpen(e.target.id)
+    });
+      $('.question').children('h3').click(function(e){
+        changeOpen(e.target.parentElement.id)
     });
     closeAnswers();
 });
@@ -12,8 +15,7 @@ $(document).ready(function() {
 // call in the if statement below.
 // we can also poentially animate the opening and closings to make them smoother
 function changeOpen(e) {
-    var q = e.target.id
-    var a = q.replace('q', 'a')
+    var a = e.replace('q', 'a')
     var aobj = $('#' + a)
 
     if (aobj.is(":visible") === false) {
