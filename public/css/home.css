@@ -142,3 +142,16 @@ h1{
 .mediaIcon{
   padding-left: 5px;
 }
+
+.question{
+  height: 2em;
+  width: 20em;
+  border:1px black solid;
+}
+
+.answer{
+  height: 5em;
+  width: 20em;
+  background-color: blue;
+  border:1px black solid;
+}
