@@ -144,11 +144,12 @@ h1{
 }
 
 .question{
-  height: 3em;
+  height: 2.5em;
   width: 25em;
   border-color:black;
   border-style: solid;
   border-width: 0px 0px 0.5px 0px;
+  text-align: center;
 }
 
 .answer{
@@ -159,43 +160,12 @@ h1{
   text-align: center;
 }
 
+#questionStage{
+display: flex;
+}
+
 #questionForm{
-  position: relative;
-  left:10em;
-}
-
-.slittleCircle{
-  border-radius: 50%;
-  width: 2px;
-  height: 2px;
-  /* width and height can be anything, as long as they're equal */
-  background-color: #680148;
-  text-align: center;
-  display: inline-block;
-  position: relative;
+  margin:auto;
 }
 
 
-.smediumCircle{
-  border-radius: 50%;
-  width: 3px;
-  height: 3px;
-  /* width and height can be anything, as long as they're equal */
-  background-color: #680148;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-}
-
-.sbigCircle{
-  border-radius: 50%;
-  width: 4px;
-  height: 4px;
-  /* width and height can be anything, as long as they're equal */
-  background-color: #680148;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  top: 10px;
-}
