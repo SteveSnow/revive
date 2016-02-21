@@ -17,7 +17,7 @@ function changeOpen(e) {
     var aobj = $('#' + a)
 
     if (aobj.is(":visible") === false) {
-        closeAnswers()
+        // closeAnswers()
         aobj.show()
     } else {
         aobj.hide()
